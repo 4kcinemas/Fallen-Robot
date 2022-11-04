@@ -79,6 +79,7 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
+uptime = get_readable_time((time.time() - StartTime))
 
 PM_START_TEXT = """
 🥀 ʜᴇʏ {},
