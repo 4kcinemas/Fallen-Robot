@@ -207,12 +207,7 @@ def start(update: Update, context: CallbackContext):
         else:
             first_name = update.effective_user.first_name
             update.effective_message.reply_photo(
-                https://te.legra.ph/file/3c88d60cff5789604df13.jpg,
-                https://te.legra.ph/file/ba1ce1730500af783f81b.jpg,
-                https://te.legra.ph/file/dadd2ba6bd871a6e13fb2.jpg,
-                https://te.legra.ph/file/445a43f319827a6c602d5.jpg,
-                https://te.legra.ph/file/3b87016f761ddb9100e1e.jpg,
-                https://te.legra.ph/file/edcfa78d504f55818b706.jpg,
+                START_IMG, 
                 caption=PM_START_TEXT.format(escape_markdown(first_name), BOT_NAME, uptime),
                 reply_markup=InlineKeyboardMarkup(buttons),
                 parse_mode=ParseMode.MARKDOWN,
