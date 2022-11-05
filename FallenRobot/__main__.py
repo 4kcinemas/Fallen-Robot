@@ -101,7 +101,7 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="🥀 ʜᴇʟᴩ 🥀", callback_data="help_module"),
+        InlineKeyboardButton(text="🥀 ʜᴇʟᴩ 🥀", callback_data="help_next"),
         InlineKeyboardButton(text="❄️ sᴜᴘᴘᴏʀᴛ ❄️", url=f"https://t.me/Namma_Pasanga_Tamil_Chating")
     ]
 ]
