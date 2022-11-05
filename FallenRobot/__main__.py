@@ -106,7 +106,7 @@ buttons = [
     ]
 ]
 
-HELP_STRINGS = f"""ʜᴇʀᴇ ʏᴏᴜ ᴄᴀɴ ғɪɴᴅ ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs[.](https://te.legra.ph/file/3b87016f761ddb9100e1e.jpg)\nsᴜᴘᴘᴏʀᴛ » @Namma_Pasanga_Tamil_Chating\nᴏᴡɴᴇʀ » @AboutSarathi
+HELP_STRINGS = f"""ʜᴇʀᴇ ʏᴏᴜ ᴄᴀɴ ғɪɴᴅ ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs[.](https://te.legra.ph/file/3b87016f761ddb9100e1e.jpg)
              \n────────────────────
             \n*➻ ᴜᴩᴛɪᴍᴇ »* {uptime}
             \n*➻ ᴜsᴇʀs »* {sql.num_users()}
