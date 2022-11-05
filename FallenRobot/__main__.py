@@ -101,12 +101,12 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="🥀 ʜᴇʟᴩ 🥀", callback_data="help_next"),
+        InlineKeyboardButton(text="🥀 ʜᴇʟᴩ 🥀", url=f"https://t.me/{BOT_USERNAME}?start=help"),
         InlineKeyboardButton(text="❄️ sᴜᴘᴘᴏʀᴛ ❄️", url=f"https://t.me/Namma_Pasanga_Tamil_Chating")
     ]
 ]
 
-HELP_STRINGS = f"""ʜᴇʀᴇ ʏᴏᴜ ᴄᴀɴ ғɪɴᴅ ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs"""
+HELP_STRINGS = f"""ʜᴇʀᴇ ʏᴏᴜ ᴄᴀɴ ғɪɴᴅ ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs[!](https://te.legra.ph/file/3b87016f761ddb9100e1e.jpg)"""
 
 DONATE_STRING = """ʜᴇʏ ʙᴀʙʏ,
   ʜᴀᴩᴩʏ ᴛᴏ ʜᴇᴀʀ ᴛʜᴀᴛ ʏᴏᴜ ᴡᴀɴɴᴀ ᴅᴏɴᴀᴛᴇ.
