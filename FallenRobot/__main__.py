@@ -96,12 +96,12 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="ᴀᴅᴅ ᴍᴇ ᴇʟsᴇ ʏᴏᴜ ɢᴇʏ",
+            text="✨ ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ ✨",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         ),
     ],
     [
-        InlineKeyboardButton(text="🥀 ʜᴇʟᴩ 🥀", callback_data="help"),
+        InlineKeyboardButton(text="🥀 ʜᴇʟᴩ 🥀", callback_data="help_module"),
         InlineKeyboardButton(text="❄️ sᴜᴘᴘᴏʀᴛ ❄️", url=f"https://t.me/Namma_Pasanga_Tamil_Chating")
     ]
 ]
